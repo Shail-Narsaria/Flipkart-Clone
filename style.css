@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+    background-color: white;
+}
+.container{
+    padding: 0 8px;
+}
+header .nav{
+    display: flex;
+    align-items: center;
+    height: 65px;
+    max-width: 1248px;
+    margin: 0 -33px;
+}
+header .logo{
+    display: flex;
+    height: 23px;
+    min-width: 192px;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+header .logo .img{
+    width: 100px;
+}
+header .search{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+header .search .search-con{
+    width: 727px;
+    height: 39px;
+    border-radius: 5px;
+    display: flex;
+}
+header .search .search-con input{
+    width: calc(100% - 32px);
+    padding: 16px;
+    outline: none;
+    border: none;
+    background-color: rgb(241, 245, 247);
+    border-radius: 0 10px 10px 0;
+}
+header .search .search-con button{
+    width: 36px;
+    height: 40px;
+    padding: 0 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: rgb(241, 245, 247);
+    border-radius: 10px 0 0 10px;
+    cursor: pointer;
+}
+.seller{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 74px;
+    color: white;
+    cursor: pointer;
+}
+.seller button{
+    width: 139px;
+    padding: 1px 0px;
+    font-size: 16px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.signin{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 -27px;
+    cursor: pointer;
+}
+.signin button{
+    width: 65px;
+    padding: 1px 0px;
+    font-size: 16px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.signin svg{
+    rotate: -90deg ;
+    cursor: pointer;
+}
+.cart{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 86px;
+    cursor: pointer;
+}
+.cart button{
+    width: 47px;
+    padding: 1px 0px;
+    font-size: 16px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+.sec1-con{
+    border: 9px rgb(243, 243, 246) solid;
+    border-left: 17px rgb(243, 243, 246) solid;
+    border-bottom: 0px;
+    border-right: 17px rgb(243, 243, 246) solid;
+    width: 1188px;
+    height: 123px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto;
+    padding-left: 164px;
+    padding-right: 133px;
+}
+.sec1-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+.sec1-items img{
+    cursor: pointer;
+    width: 64px;
+    margin: 0 0 10px 0;
+}
+.sec1-items svg{
+    display: flex;
+    rotate: -90deg ;
+    cursor: pointer;
+}
+
+
+
+
+.sec2-con{
+    border: 17px rgb(243, 243, 246) solid;
+    height: 250px;
+    background-image: url("https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/45a33f2a62417c91.jpg?q=20");  
+}
+
+
+
+
+.sec3-con{
+    font-size: 21px;
+    font-weight: 500;
+    border-left: 17px rgb(243, 243, 246) solid;
+    border-right: 17px rgb(243, 243, 246) solid;
+    border-bottom: 17px rgb(243, 243, 246) solid;
+    padding-top: 30px;  
+}
+.Electronics{
+    padding-left: 20px;
+    width: 1200px;
+    border-right: 17px rgb(243, 243, 246) solid;
+}
+.sec3_list{
+    height: 100%;
+    width: 1220px;
+    display: flex;
+    overflow-x: auto;
+    padding: 10px 0 0 0;
+    border-right: 17px rgb(243, 243, 246) solid;
+}
+.sec3_list::-webkit-scrollbar {
+    display: none;
+}
+.sec3_items{
+    width: 190px;
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 15px 20px 15px;
+    border: 2px solid rgb(220, 220, 226);
+    border-radius: 8px;
+    margin: 10px;
+}
+.sec3_items img{
+    width:178px;
+    height:167px;
+}
+.sec3_item_name{
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 20px;
+}
+.sec3_item_price{
+    font-size: 14px;
+}
+.sec3_last_img img{
+    height: 100px;
+}
+
+
+
+
+
+.sec4-con{
+    font-size: 21px;
+    font-weight: 500;
+    border-left: 17px rgb(243, 243, 246) solid;
+    border-right: 17px rgb(243, 243, 246) solid;
+    border-bottom: 17px rgb(243, 243, 246) solid;
+    padding-top: 30px;  
+}
+.Beauty{
+    padding-left: 20px;
+}
+.sec4_list{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    padding: 10px 0 0 0;
+}
+.sec4_list::-webkit-scrollbar {
+    display: none;
+}
+.sec4_items{
+    width: 190px;
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 15px 20px 15px;
+    border: 2px solid rgb(220, 220, 226);
+    border-radius: 8px;
+    margin: 10px;
+}
+.sec4_items img{
+    width:178px;
+    height:167px;
+}
+.sec4_item_name{
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 20px;
+}
+.sec4_item_price{
+    font-size: 14px;
+}
+.sec4_last_img img{
+    height: 100px;
+}
