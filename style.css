@@ -165,7 +165,8 @@ header .search .search-con button{
     border-left: 17px rgb(243, 243, 246) solid;
     border-right: 17px rgb(243, 243, 246) solid;
     border-bottom: 17px rgb(243, 243, 246) solid;
-    padding-top: 30px;  
+    padding-top: 30px; 
+    width: 86.2rem; 
 }
 .Electronics{
     padding-left: 20px;
@@ -218,6 +219,7 @@ header .search .search-con button{
 .sec4-con{
     font-size: 21px;
     font-weight: 500;
+    width: 86.2rem;
     border-left: 17px rgb(243, 243, 246) solid;
     border-right: 17px rgb(243, 243, 246) solid;
     border-bottom: 17px rgb(243, 243, 246) solid;
