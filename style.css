@@ -159,7 +159,7 @@ header .search .search-con button{
 
 
 
-.sec3-con{
+.secfl-con{
     font-size: 21px;
     font-weight: 500;
     border-left: 17px rgb(243, 243, 246) solid;
@@ -216,15 +216,6 @@ header .search .search-con button{
 
 
 
-.sec4-con{
-    font-size: 21px;
-    font-weight: 500;
-    width: 92.8rem;
-    border-left: 17px rgb(243, 243, 246) solid;
-    border-right: 17px rgb(243, 243, 246) solid;
-    border-bottom: 17px rgb(243, 243, 246) solid;
-    padding-top: 30px;  
-}
 .Beauty{
     padding-left: 20px;
 }
