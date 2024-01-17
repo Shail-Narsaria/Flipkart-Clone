@@ -112,7 +112,6 @@ header .search .search-con button{
 }
 
 
-
 .sec1-con{
     border: 9px rgb(243, 243, 246) solid;
     border-left: 17px rgb(243, 243, 246) solid;
@@ -168,13 +167,14 @@ header .search .search-con button{
     padding-top: 30px; 
     width: 92.8rem;
 }
+
 .Electronics{
     padding-left: 20px;
     width: 1200px;
     border-right: 17px rgb(243, 243, 246) solid;
 }
 .sec3_list{
-    height: 100%;
+    height: 285px;
     width: 1220px;
     display: flex;
     overflow-x: auto;
@@ -211,6 +211,14 @@ header .search .search-con button{
 .sec3_last_img img{
     height: 100px;
 }
+.sec-3_img{
+    width: 249px;
+    height: 313px;
+}
+.sec-3_arr{
+    display: flex;
+}
+
 
 
 
@@ -256,3 +264,25 @@ header .search .search-con button{
 .sec4_last_img img{
     height: 100px;
 }
+
+.footer{
+    background-color: black;
+    color: white;
+    font-size: 0.8rem;
+    
+    
+    /* 
+    
+    width: 94.9rem;
+    display: flex;
+    
+    gap: 2rem; */
+
+
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    padding: 40px 60px 0;
+    -webkit-column-gap: 20px;
+    column-gap: 20px;
+}
+
